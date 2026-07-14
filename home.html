@@ -6,7 +6,7 @@
     <title>Login page</title>
 </head>
 <body> 
-    <form action="get_data.php" method="get">
+    <form action="get_data.php" method="post" enctype="multipart/form-data">
     <input type="text" name="u_name" placeholder="username">
     <input type="password" name="u_pass" placeholder="password">
     <textarea name="u_text" placeholder="description"></textarea>
@@ -17,6 +17,7 @@
         <option>surat</option>
         <option>begusarai</option>
     </select>
+    <input type="file" name="fileToUploads" id="">
     <input type="submit">
     <input type="Reset">
      </form>
