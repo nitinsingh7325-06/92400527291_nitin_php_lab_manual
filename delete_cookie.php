@@ -1,6 +1,6 @@
 <?php
-// Delete the cookie
+// Delete the cookie by setting its expiry time in the past
 setcookie("username", "", time() - 3600);
 
-echo "Cookie deleted successfully.";
+echo "Cookie has been deleted.";
 ?>
