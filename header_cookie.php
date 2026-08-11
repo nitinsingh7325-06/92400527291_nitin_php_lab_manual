@@ -1,7 +1,7 @@
 <?php
-setcookie("username", "John", time() + 3600);
+setcookie("username", "Nitin", time() + 3600);
 
-// Redirect to another page
-header("Location: read_cookie.php");
+// Redirect using header()
+header("Location: welcome.php");
 exit();
 ?>
